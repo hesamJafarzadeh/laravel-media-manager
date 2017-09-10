@@ -13,6 +13,9 @@ class ManagerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        $this->publishes([
+            __DIR__.'/config/manager.php' => config_path('mediaManager.php'),
+        ]);
     }
 
     /**
