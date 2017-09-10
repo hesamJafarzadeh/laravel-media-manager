@@ -1,0 +1,17 @@
+{
+    "name": "media-manager/manager",
+    "keywords": [
+        "laravel",
+        "media",
+        "file",
+    ],
+    "description": "Manager Your Project File And Media",
+    "authors": [
+        {
+            "name": "hesam jafarzadeh",
+            "email": "hesam.jafar@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
