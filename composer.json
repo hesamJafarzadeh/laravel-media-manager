@@ -12,6 +12,11 @@
             "email": "hesam.jafar@yahoo.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "MediaManager\\Manager\\": "src/"
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
