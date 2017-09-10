@@ -47,7 +47,7 @@ MediaManager::store($request->file('file'), 'product/7/image', 'picture.jpg');
 
 But you can change this logic By change into config.php file with this command :
 ```
-php artisan publish:config
+php artisan vendor:publish
 ```
 
 for use this package must be imported it, so write this command after namespace
